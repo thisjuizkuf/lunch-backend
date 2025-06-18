@@ -17,7 +17,6 @@ export default defineConfig({ // Changed module.exports to export default for Ty
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     }
   },
-  // Add the modules configuration here
   modules: {
     // This is the core payment module for Medusa v2
     payment: {
